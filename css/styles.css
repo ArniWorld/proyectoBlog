@@ -169,3 +169,14 @@
     line-height: 1.6;
     margin-bottom: 25px;
 }
+.footer{
+    background-color: var(--colorBloque);
+    padding: 10px 0;
+}
+
+.copy{
+    text-align: center;
+    color: var(--colorBlanco);
+    font-size: 18px;
+    font-family: var(--fuentePrimaria);
+}
