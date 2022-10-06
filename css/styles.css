@@ -76,7 +76,8 @@
 }
 
 .articulos{
-    width: 70%;
+    width: 65%;
+    float: left;
 }
 
 .articulo{
@@ -110,4 +111,61 @@
     font-size: 25px;
     padding: 10px 35px;
     border-radius: 8px;
+}
+
+/*Aside*/
+.aside{
+    width: 28%;
+    float: right;
+}
+
+.imagePost{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.listaPost{
+    list-style-type: none;
+    list-style-image: url(../img/check.png);
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+.post{
+    margin-bottom: 15px;
+}
+
+.linkPost{
+    color: var(--colorSecundario);
+    font-size: 20px;
+    font-family: var(--fuentePrimaria);
+}
+
+.divisor{
+    background-color: var(--colorSecundario);
+    height: 3px;
+    margin: 25px 0;
+}
+
+.listPopular{
+    list-style-type: none;
+}
+.popular{
+
+}
+
+.numero{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: var(--fuentePrimaria);
+    float: left;
+    margin-right: 15px;
+}
+
+.parrafoPopular{
+    font-size: 18px;
+    color: var(--colorOscuro);
+    font-family: var(--fuenteSecundaria);
+    line-height: 1.6;
+    margin-bottom: 25px;
 }
